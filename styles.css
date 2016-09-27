@@ -6,12 +6,13 @@ background: url(images/background.jpg)no-repeat center;
 background-size: cover;
 background-color: black;
 font-family: "Open Sans";
-background-color: rgba(0,0,0,0.5 );
+
+
 }
 
-/*.opacity {
+.opacity {
 	background-color: rgba(0,0,0,0.5 );
-}*/
+}
 
 #doc{
 	padding-left: 5%;
@@ -22,6 +23,7 @@ background-color: rgba(0,0,0,0.5 );
 /*nav*/
 header nav {
  text-align: center;
+ height: 20%;
 }
 
 header nav ul {
@@ -75,29 +77,54 @@ justify-content: space-between;
  border-bottom: 2px;
 }
 
+table {
+	width : 100%;
+	border-top: .5px solid #696969;
+	border-bottom: .5px solid #696969;
+	border-radius: .5px solid #696969;
+	justify-content: space-around;
+}
+
+
+.img {
+	border-right: .5px #696969;
+}
+.ligne-verticale{
+	width: .5px;
+	border: solid grey;
+}
+
 .guit {
  display: inline-block;
- text-align:center;
+ text-align: left;
 }
 
 .june {
   display: inline-block;
-  text-align:center;
+  text-align: left;
 }
 
 .rose {
   display: inline-block;
-  text-align:center;
+  text-align:left;
 }
 
 
 /*dates*/
 .tab td {
 width: 35%;
+border: !importantnone;
 }
 
 .tab td:first-child{
 width: 5%!important;
+}
+
+.gigs p{
+	text-align: center;
+	color: #696969;
+	font-weight: bold;
+	font-size: .8em;
 }
 
 
@@ -121,4 +148,33 @@ width: 5%!important;
 
 .posts{
 	width: 30%;
+}
+
+
+
+/*share*/
+
+#share {
+	width: 100%;
+	height: 20%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	justify-content: space-around;
+	list-style: none;
+	line-height: 70px;
+	text-align: center;
+}
+
+#share i{
+	display: inline-flex;
+	justify-content: space-around;
+	text-align: center;
+	width: 4%;
+}
+
+.foot p{
+	color: #DCDCDC;
+	font-size: .8em;
+	text-align: center;
 }
